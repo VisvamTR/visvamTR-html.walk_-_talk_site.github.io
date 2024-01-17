@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk & Talk mobiles login</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="form">
+            <h1>Sign up</h1>
+            <input type="text" class="gmail" id="email" placeholder="Email" required><br>
+            <input type="password" class="pass_sign" id="pw_sign" placeholder="Password" required><br>
+            <input type="checkbox" id="check" onclick="show()">
+            <label for="check">show password</label>
+            <p class="pw_conditions" id="len_check">password must contains 8 to 15 characters</p>
+            <li id="alpha">Atleast one capital letter</li>
+            <li id="spl">one special character</li>
+            <li id="num">one numeric</li>
+            <button id="regis" onclick="reg()">sign up</button><br>
+            <a id="forgot" href="login.html">I already have a account</a>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

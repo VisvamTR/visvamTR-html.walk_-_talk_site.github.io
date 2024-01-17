@@ -1,0 +1,205 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: wheat;
+}
+.name{
+    display: flex;
+    background-color: rgb(239, 234, 234);
+    height: 100px;
+    align-items: center;
+}
+.name img{
+    height: 200px;
+    max-height: 200px;
+    width: 120px;
+    max-width: 100%;
+}
+.name h1{
+    position: absolute;
+    margin-left: 48%;
+    transform: translateX(-40%);
+    background: linear-gradient(to right, #d2593b, #3e85b8);
+    color: transparent;
+    background-clip: text;
+    font-size: 2em;
+}
+.name .lap_log{
+    position: absolute;
+    margin-left: 90%;
+    transform: translateX(-50%);
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background: linear-gradient(to right, #d2593b, #3e85b8);
+}
+.name #lap_out{
+    display: none;
+}
+.name .lap_log img{
+    padding-top: 2%;
+    height: 30px;
+    width: auto;
+}
+#username_contain{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+#username_contain p, #username{
+    background: linear-gradient(to right, #3e85b8, #d2593b);
+    color: transparent;
+    background-clip: text;
+    font-size: 21px;
+    font-weight: bolder;
+}
+.name .icon{
+    display: none;
+}
+.ng{
+    background-color: rgb(242, 177, 11);
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ng .a{
+    color: rgb(14, 14, 14);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 16px;
+}
+.ng .a:hover{
+    color: rgb(81, 152, 240);
+    text-decoration: underline;
+}
+.ng .b{
+    display: none;
+}
+.mate_car_charger{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 1%;
+    color: silver;
+}
+.proimg8{
+    background-color: rgb(74, 75, 74);
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.proimg8 img{
+    height: 250px;
+    width: auto;
+}
+.proimg8 .img_button img{
+    height: 100px;
+}
+.proimg8 #img_view{
+    background-color: white;
+    height: 250px;
+    width: 180px;
+    margin-top: 2%;
+    margin-left: 28%;
+}
+.m_car_charger{
+    background-color: rgb(74, 75, 74);
+    height: 528px;
+    border-radius: 20px;
+    width: 400px;
+}
+.m_car_charger h3, h4{
+    margin-left: 5%;
+    color: silver;
+}
+.m_car_charger li{
+    padding-bottom: 10px;
+    color: silver;
+}
+.m_car_charger button{
+    margin-left: 40%;
+    
+}
+.m_car_charger span{
+    color: rgb(148, 149, 150);
+    text-decoration: line-through;
+}
+@media only screen and (max-width: 600px) {
+    .name{
+        display: flex;
+        background-color: rgb(239, 234, 234);
+        height: 50px;
+        align-items: center;
+    }
+    .name img{
+        height: 80px;
+        width: 50px;
+    }
+    .name h1{
+        position: absolute;
+        margin-left: 52%;
+        background: linear-gradient(to right, #d2593b, #3e85b8);
+        color: transparent;
+        background-clip: text;
+        font-size: 20px;
+    }
+    .name h1 span{
+        margin-left: 15%;
+    }
+    #username_contain, #lap_log, #lap_out{
+        display: none;
+    }
+    .name .icon {
+        display: block;
+        position: absolute;
+        margin-left: 85%;
+        height: 50px;
+        width: 45px;
+        font-size: 20px;
+        font-weight: bolder;
+        border: none;
+        background-color: rgb(239, 234, 234);
+    }
+    .ng {
+        display: none;
+        position: absolute;
+        margin-top: -16%;
+        height: 100px;
+        width: 120px;
+        margin-left: 53%;
+        background-color: skyblue;
+    }
+    .ng nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .ng .b{
+        display: block;
+    }
+    .ng .a:hover{
+        color: black;
+        text-decoration: none;
+    }
+    .mate_car_charger{
+        gap: 20px;
+    }
+    .proimg8{
+        width: 300px;
+        margin-top: 5%;
+    }
+    .proimg8 #img_view{
+        margin-left: 20%;
+    }
+    .m_car_charger{
+        height: 505px;
+        width: 300px;
+        margin-bottom: 5%;
+    }
+}

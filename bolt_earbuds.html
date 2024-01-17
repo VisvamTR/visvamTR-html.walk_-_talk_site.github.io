@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bolt Earbuds</title>
+    <link rel="stylesheet" href="bolt_earbuds.css">
+</head>
+<body>
+    <div class="name">
+        <img src="logo.png" alt="Walk & Talk Mobile">
+        <h1>Walk & Talk <span>Mobile</span></h1>
+        <button class="lap_log" id="lap_log" onclick="signup()"><img src="user icon.png" alt="user"><br><span>login</span></button>
+        <button class="lap_log" id="lap_out" onclick="logout()"><img src="user icon.png" alt="user"><br><span>logout</span></button>
+        <button class="icon" id="icon" href="#" onclick="mob_nav()">&#9776;</button>
+    </div>
+    <div class="ng" id="ng">
+        <nav>
+            <a class="a" href="index.html">Home</a>
+            <a class="a b" id="mobin" onclick="mobin()">Login</a>
+            <a class="a b" id="mobout" onclick="mobout()">logout</a>
+        </nav>
+    </div>
+    <div id="username_contain">
+        <p>Welcome <span id="username"></span> !</p>
+    </div>
+    <div class="bolt_earbuds">
+        <div class="proimg1">
+            <h2>Bolt Earbuds</h2>
+            <button class="img_button" onclick="befv()"><img src="pro1.jpg" alt="bolt_earbuds_front"></button>
+            <button class="img_button" onclick="bebv()"><img src="pro1.1.jpg" alt="bolt_earbuds_back"></button>
+            <div id="img_view">
+                <img src="pro1.jpg" alt="">
+            </div>
+            <p><b>FIRE PODS</b></p>
+            <p>True Wireless Earbuds</p>
+        </div>
+        <div class="b_e_dt">
+                <h3>True Wireless Earbuds</h3>
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Immersive Audio with Bass</li>
+                    <li>Seamless Multifunction Control</li>
+                    <li>Instant Voice Assistant</li>
+                    <li>Upto 24 Hours Playback</li>
+                    <li>Bluetooth v5.1</li>
+                    <li>rechargeable Battery</li>
+                </ul>
+                <h4>In the box:</h4>
+                <ul>
+                    <li>Bluetooth 5.1 Earbuds</li>
+                    <li>Charging cable</li>
+                </ul>
+                <hr>
+                <h3><span>Rs. 2499</span> Rs.999</h3>
+                <button onclick="pro()">Buy now</button>
+            </div>
+        </div>
+    </div>
+    <script src="wtk.js"></script>
+</body>
+</html>

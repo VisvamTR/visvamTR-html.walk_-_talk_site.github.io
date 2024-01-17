@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk & Talk Mobile Map</title>
+    <link rel="stylesheet" href="wtk.css">
+</head>
+<body>
+    <div class="name">
+        <img src="logo.png" alt="Walk & Talk Mobile">
+        <h1>Walk & Talk <span>Mobile</span></h1>
+        <button class="lap_log" id="lap_log" onclick="signup()"><img src="user icon.png" alt="user"><br><span>login</span></button>
+        <button class="lap_log" id="lap_out" onclick="logout()"><img src="user icon.png" alt="user"><br><span>logout</span></button>
+        <button class="icon" id="icon" href="#" onclick="mob_nav()">&#9776;</button>
+    </div>
+    <div class="ng" id="ng">
+        <nav>
+            <a class="a" href="index.html">Home</a>
+            <a class="a b" id="mobin" onclick="mobin()">Login</a>
+            <a class="a b" id="mobout" onclick="mobout()">logout</a>
+        </nav>
+    </div>
+    <div id="username_contain">
+        <p>Welcome <span id="username"></span> !</p>
+    </div>
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d503082.65126228076!2d78.145554!3d9.906181!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c50584554103%3A0xcd2250e08190a3f6!2sVisvam%20Mobiles!5e0!3m2!1sen!2sus!4v1703235551144!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <script src="wtk.js"></script>
+</body>
+</html>

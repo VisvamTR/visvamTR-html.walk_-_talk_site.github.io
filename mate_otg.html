@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mate OTG - C</title>
+    <link rel="stylesheet" href="mate_otg.css">
+</head>
+<body>
+    <div class="name">
+        <img src="logo.png" alt="Walk & Talk Mobile">
+        <h1>Walk & Talk <span>Mobile</span></h1>
+        <button class="lap_log" id="lap_log" onclick="signup()"><img src="user icon.png" alt="user"><br><span>login</span></button>
+        <button class="lap_log" id="lap_out" onclick="logout()"><img src="user icon.png" alt="user"><br><span>logout</span></button>
+        <button class="icon" id="icon" href="#" onclick="mob_nav()">&#9776;</button>
+    </div>
+    <div class="ng" id="ng">
+        <nav>
+            <a class="a" href="index.html">Home</a>
+            <a class="a b" id="mobin" onclick="mobin()">Login</a>
+            <a class="a b" id="mobout" onclick="mobout()">logout</a>
+        </nav>
+    </div>
+    <div id="username_contain">
+        <p>Welcome <span id="username"></span> !</p>
+    </div>
+    <div class="mate_otg">
+        <div class="proimg7">
+            <h2>Mate OTG - C</h2>
+            <button class="img_button" onclick="motgf()"><img src="pro7.jpg" alt="MOTG_front"></button>
+            <button class="img_button" onclick="motgb()"><img src="pro7.1.jpg" alt="MOTG_back"></button>
+            <div id="img_view">
+                <img src="pro7.jpg" alt="mate_OTG">
+            </div>
+            <p><b>3.4 Ampere</b></p>
+            <p>OTG - C</p>
+        </div>
+        <div class="motg">
+                <h3>Mate 3.4A OTG - C</h3>
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Type-C USB OTG for supported Phones & Tablets</li>
+                    <li>Used for pendrive, mouse & keyboard also</li>
+                    <li>Works with OTG supported devices</li>
+                    <li>Thin USB Cable</li>
+                    <!-- <li>Protection From Overcharge</li>
+                    <li>Single USB</li> -->
+                </ul>
+                <h4>In the box:</h4>
+                <ul>
+                    <!-- <li>15 WATT charging adapter</li> -->
+                    <li>Micro USB type-C</li>
+                </ul>
+                <hr>
+                <h3><span>Rs. 400</span> Rs.149</h3>
+                <button onclick="pro()">Buy now</button>
+            </div>
+        </div>
+    </div>
+    <script src="wtk.js"></script>
+</body>
+</html>

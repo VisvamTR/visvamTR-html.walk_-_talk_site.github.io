@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walk & Talk Mobile</title>
+    <link rel="stylesheet" href="wtk.css">
+</head>
+<body>
+    <div class="name">
+        <img src="logo.png" alt="Walk & Talk Mobile">
+        <h1>Walk & Talk <span>Mobile</span></h1>
+        <button class="lap_log" id="lap_log" onclick="signup()"><img src="user icon.png" alt="user"><br><span>login</span></button>
+        <button class="lap_log" id="lap_out" onclick="logout()"><img src="user icon.png" alt="user"><br><span>logout</span></button>
+        <button class="icon" id="icon" href="#" onclick="mob_nav()">&#9776;</button>
+    </div>
+    <div class="ng" id="ng">
+        <nav>
+            <a class="a" href="index.html">Home</a>
+            <a class="a" href="#about">About</a>
+            <a class="a" href="#main_product">products</a>
+            <a class="a" href="#contact">Contact</a>
+            <a class="a b" id="mobin" onclick="mobin()">Login</a>
+            <a class="a b" id="mobout" onclick="mobout()">logout</a>
+        </nav>
+    </div>
+    <div id="username_contain">
+        <p>Welcome <span id="username"></span> !</p>
+    </div>
+    <div class="image_container">
+        <div class="image">
+            <img class="imgsize" src="img1.jpg" alt="shop">
+        </div>
+        <div class="image">
+            <img class="imgsize" src="img2.jpg" alt="shop">
+        </div>
+        <div class="image">
+            <img class="imgsize imgsizes" src="img3.jpg" alt="shop">
+        </div>
+        <div class="image">
+            <img class="imgsize imgsizes" src="img4.jpg" alt="shop">
+        </div>
+    </div>
+
+    <div class="mobile_image">
+        <div class="image_contain">
+            <img id="display_img" class="imgsize" src="img1.jpg" alt="shop">
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button class="scroll-button" id="btn1" onclick="imgbtn1()">1</button>
+        <button class="scroll-button" id="btn2" onclick="imgbtn2()">2</button>
+        <button class="scroll-button" id="btn3" onclick="imgbtn3()">3</button>
+        <button class="scroll-button" id="btn4" onclick="imgbtn4()">4</button>
+    </div>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <marquee direction="up" scrollamount="5">
+        <p>Welcome to Mobile Shop, your one-stop destination for greatest mobile accessories! We are passionate about providing our customers with the best selection of accessories.</p>
+        <p>At Mobile Shop, we strive to offer a seamless and enjoyable shopping experience. Our team is dedicated to staying up-to-date with the latest trends in mobile technology to bring you the most innovative and reliable devices on the market.</p>
+        <p>Whether you're looking for a quality products, a budget-friendly option, or the perfect accessories to complement your device, we've got you covered. Customer satisfaction is our top priority, and we are here to assist you in finding the perfect mobile solution to meet your needs.</p>
+        <p>Thank you for choosing Mobile our Shop. We look forward to serving you and enhancing your mobile experience!</p>
+        </marquee>
+        <div id="mob_about">
+            <p>Welcome to Mobile Shop, your one-stop destination for greatest mobile accessories! We are passionate about providing our customers with the best selection of accessories.</p>
+            <p>At Mobile Shop, we strive to offer a seamless and enjoyable shopping experience. Our team is dedicated to staying up-to-date with the latest trends in mobile technology to bring you the most innovative and reliable devices on the market.</p>
+            <p>Whether you're looking for a quality products, a budget-friendly option, or the perfect accessories to complement your device, we've got you covered. Customer satisfaction is our top priority, and we are here to assist you in finding the perfect mobile solution to meet your needs.</p>
+            <p>Thank you for choosing Mobile our Shop. We look forward to serving you and enhancing your mobile experience!</p>
+        </div>
+    </div>
+    <div id="main_product">
+        <h2>products</h2>
+        <div id="products">
+            <div class="box1">
+                <div class="pro pro1"><img src="pro1.jpg" alt="bolt earbuds"></div>
+                <h4>Bolt Earbuds</h4>
+                <a href="bolt_earbuds.html">View Details</a>
+            </div>
+            <div class="box2">
+                <div class="pro pro2"><img src="pro2.jpg" alt="Forfone Wireless"></div>
+                <h4>Forfone Wireless</h4>
+                <a href="forfone.html">View Details</a>
+            </div>
+            <div class="box3">
+                <div class="pro pro3"><img src="pro3.jpg" alt="Mate Harmony"></div>
+                <h4>Mate Harmony</h4>
+                <a href="harmony.html">View Details</a>
+            </div>
+            <div class="box4">
+                <div class="pro pro4"><img src="pro4.jpg" alt="powerbank"></div>
+                <h4>Philips Powerbank</h4>
+                <a href="philipspb.html">View Details</a>
+            </div>
+        </div>
+    </div>
+    <div id="main_product1">
+        <div id="products">
+            <div class="box5">
+                <div class="pro pro5"><img src="pro5.jpg" alt="mate 27 WATT"></div>
+                <h4>Mate 27 WATT</h4>
+                <a href="mate_27watt.html">View Details</a>
+            </div>
+            <div class="box6">
+                <div class="pro pro6"><img src="pro6.jpg" alt="mate 15 WATT"></div>
+                <h4>Mate 15 WATT</h4>
+                <a href="mate_15watt.html">View Details</a>
+            </div>
+            <div class="box7">
+                <div class="pro pro7"><img src="pro7.jpg" alt="Mate OTG"></div>
+                <h4>Mate OTG - C</h4>
+                <a href="mate_otg.html">View Details</a>
+            </div>
+            <div class="box8">
+                <div class="pro pro8"><img src="pro8.jpg" alt="Mate Car charger"></div>
+                <h4>Mate Car charger</h4>
+                <a href="mcar.html">View Details</a>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="contacts">
+            <h2>Contact us</h2>
+            <ul>
+                <li><a href="location.html">Location</a></li>
+                <li>+91-8940011888</li>
+                <li>walkntalkmobile@gmail.com</li>
+            </ul>
+        </div>
+        <div class="address">
+            <h3>Walk & Talk Mobile</h3>
+            <p>
+                Old No. 15,New No. 22, <br> Teppakulam to Anuppanadi, <br> Madurai, Tamil Nadu 625009. <br>
+                India.
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Walk & Talk Mobile | Privacy Policy</p>
+    </div>
+    <script src="wtk.js"></script>
+</body>
+</html>

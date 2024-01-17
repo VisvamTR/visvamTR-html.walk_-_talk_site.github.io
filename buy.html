@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>purchase</title>
+    <link rel="stylesheet" href="wtk.css">
+</head>
+<body>
+    <div class="name">
+        <img src="logo.png" alt="Walk & Talk Mobile">
+        <h1>Walk & Talk <span>Mobile</span></h1>
+        <button class="lap_log" id="lap_log" onclick="signup()"><img src="user icon.png" alt="user"><br><span>login</span></button>
+        <button class="lap_log" id="lap_out" onclick="logout()"><img src="user icon.png" alt="user"><br><span>logout</span></button>
+        <button class="icon" id="icon" href="#" onclick="mob_nav()">&#9776;</button>
+    </div>
+    <div class="ng" id="ng">
+        <nav>
+            <a class="a" href="index.html">Home</a>
+            <a class="a b" id="mobin" onclick="mobin()">Login</a>
+            <a class="a b" id="mobout" onclick="mobout()">logout</a>
+        </nav>
+    </div>
+    <div id="username_contain">
+        <p>Welcome <span id="username"></span> !</p>
+    </div>
+    <p class="purchase"><b>Thankyou visiting our site <br>please <a href="location.html">visit shop</a> to purchase the product</b></p>
+    <script src="wtk.js"></script>
+</body>
+</html>

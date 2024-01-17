@@ -1,0 +1,74 @@
+body{
+    background-image: url(background5.jpeg);
+    background-size: cover;
+}
+#form{
+    border: 2px solid rgb(234, 200, 138);
+    color: rgb(205, 185, 129);
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+}
+input{
+    height: 30px;
+    width: 235px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    background: transparent;
+    color: rgb(247, 244, 244);
+    padding-left: 10px;
+    margin-bottom: 5%;
+}
+input::placeholder{
+    color: rgb(179, 174, 174);
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+#check,label{
+    height: 15px;
+    width: 15px;
+    font-size: 18px;
+}
+.pw_conditions, li{
+    color: rgb(244, 243, 243);
+    font-size: 17px;
+    margin-top: -1%;
+    padding-top: 1px;
+    font-weight: bold;
+}
+#forgot{
+    font-weight: bolder;
+    color: rgb(237, 228, 46);
+    text-decoration: none;
+}
+#forgot:hover{
+    color: rgb(107, 194, 218);
+}
+#regis{
+    height: 30px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: bold;
+}
+#regis:hover{
+    color: rgb(220, 140, 21);
+}
+form p{
+    color: rgb(205, 206, 207);
+    font-weight: bolder;
+}
+#form button{
+    margin-top: 3%;
+    margin-left: 35%;
+    margin-bottom: 1%;
+}

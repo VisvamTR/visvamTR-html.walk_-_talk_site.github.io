@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forfone Wireless Earphone</title>
+    <link rel="stylesheet" href="forfone.css">
+</head>
+<body>
+    <div class="name">
+        <img src="logo.png" alt="Walk & Talk Mobile">
+        <h1>Walk & Talk <span>Mobile</span></h1>
+        <button class="lap_log" id="lap_log" onclick="signup()"><img src="user icon.png" alt="user"><br><span>login</span></button>
+        <button class="lap_log" id="lap_out" onclick="logout()"><img src="user icon.png" alt="user"><br><span>logout</span></button>
+        <button class="icon" id="icon" href="#" onclick="mob_nav()">&#9776;</button>
+    </div>
+    <div class="ng" id="ng">
+        <nav>
+            <a class="a" href="index.html">Home</a>
+            <a class="a b" id="mobin" onclick="mobin()">Login</a>
+            <a class="a b" id="mobout" onclick="mobout()">logout</a>
+        </nav>
+    </div>
+    <div id="username_contain">
+        <p>Welcome <span id="username"></span> !</p>
+    </div>
+    <div class="forfone_wireless">
+        <div class="proimg2">
+            <h2>Forfone Wireless Earphone</h2>
+            <button class="img_button" onclick="ffwf()"><img src="pro2.jpg" alt="forfone_front"></button>
+            <button class="img_button" onclick="ffwb()"><img src="pro2.1.jpg" alt="forfone_back"></button>
+            <div id="img_view">
+                <img src="pro2.jpg" alt="forfone_wireless">
+            </div>
+            <p><b>Forfone 235</b></p>
+            <p>True Wireless Earphone</p>
+        </div>
+        <div class="forfone">
+                <h3>True Wireless Earphone</h3>
+                <h4>Key Features</h4>
+                <ul>
+                    <li>Noise isolation with precise Bass</li>
+                    <li>High fidelity sound</li>
+                    <li>Instant Voice Assistant</li>
+                    <li>Upto 48 Hours Playback</li>
+                    <li>upto 20 Hours Talking time</li>
+                    <li>rechargeable Battery</li>
+                </ul>
+                <h4>In the box:</h4>
+                <ul>
+                    <li>Bluetooth 5.0 Earphone</li>
+                    <li>Charging cable, Buds</li>
+                </ul>
+                <hr>
+                <h3><span>Rs. 1000</span> Rs.499</h3>
+                <button onclick="pro()">Buy now</button>
+            </div>
+        </div>
+    </div>
+    <script src="wtk.js"></script>
+</body>
+</html>
