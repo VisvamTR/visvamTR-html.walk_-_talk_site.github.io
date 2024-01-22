@@ -15,7 +15,7 @@ function reg() {
                 window.location.href = "index.html";
             }
             else {
-                alert("Please enter the valid password or click forgot password")
+                alert("Password does not match, Please enter the valid password or click forgot password")
             }    
         }
         else {
