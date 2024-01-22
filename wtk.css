@@ -23,8 +23,14 @@ body{
     transform: translateX(-40%);
     background: linear-gradient(to right, #d2593b, #3e85b8);
     color: transparent;
+    -webkit-background-clip: text;
     background-clip: text;
     font-size: 2em;
+}
+@supports (-webkit-background-clip: text) {
+    .name h1 {
+        -webkit-background-clip: text;
+    }
 }
 .name .lap_log{
     position: absolute;
