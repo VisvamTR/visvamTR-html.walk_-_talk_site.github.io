@@ -237,6 +237,7 @@ body{
         color: #5ea6e4;
         font-size: 20px;
         background-clip: none;
+        background: none;
     }
     .name h1 span{
         margin-left: 15%;
@@ -247,6 +248,7 @@ body{
     #username_contain p, #username{
         color: #5ea6e4;
         background-clip: none;
+        background: none;
     }
     .name .icon {
         display: block;
